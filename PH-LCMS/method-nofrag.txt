@@ -1,0 +1,98 @@
+                            Method of Q Exactive HF
+
+OVERALL METHOD SETTINGS
+
+Global Settings
+Use lock masses                                                         best 
+Lock mass injection                                                        ― 
+Chrom. peak width (FWHM)                                                  15 s
+Time
+Method duration                                                        25.00 min
+Customized Tolerances (+/-)
+Lock Masses                                                                ― 
+Inclusion                                                                  ― 
+Exclusion                                                                  ― 
+Neutral Loss                                                               ― 
+Mass Tags                                                                  ― 
+Dynamic Exclusion                                                          ― 
+
+
+                                   Experiment
+
+TARGETED-SIM
+General
+Runtime                                                        2.98 to 22.02 min
+Polarity                                                            negative 
+In-source CID                                                            0.0 eV
+Inclusion                                                                 on 
+SIM
+Microscans                                                                 1 
+Resolution                                                            60,000 
+AGC target                                                               1e5 
+Maximum IT                                                               200 ms
+MSX count                                                                  1 
+Isolation window                                                         4.0 m/z
+Isolation offset                                                         1.0 m/z
+Scan range                                                       150 to 2000 m/z
+Spectrum data type                                                   Profile 
+
+                                     Setup
+
+TUNEFILES
+General
+Switch Count  0
+Base Tunefile C:\Xcalibur\methods\200mkl_neg_PH.mstune
+
+CONTACT CLOSURE
+General
+Used            False 
+Start in Closed  True 
+Switch Count        0 
+
+SYRINGE
+General
+Used                  False 
+Start in OFF           True 
+Stop at end of run    False 
+Switch Count              0 
+Pump setup
+Syringe type       Hamilton 
+Flow rate             3.000 µL/min
+Inner diameter        2.303 mm
+Volume                  250 µL
+
+DIVERT VALVE A
+General
+Used         True 
+Start in 1-2 True 
+Switch Count    1 
+Element 1
+At           2.98 min
+Switches to   1-6 
+
+DIVERT VALVE B
+General
+Used         False 
+Start in 1-2  True 
+Switch Count     0 
+
+LOCK MASSES
+   (no entries)
+
+INCLUSION LIST
+    3 entries
+     Mass Formula Species  CS Polarity Start   End (N)CE MSX ID Comment
+    [m/z]     [M]         [z]          [min] [min]              
+221.10000                     Negative                          
+177.06600                     Negative                          
+235.10000                     Negative                          
+
+EXCLUSION LIST
+   (no entries)
+
+NEUTRAL LOSSES
+   (no entries)
+
+MASS TAGS
+   (no entries)
+

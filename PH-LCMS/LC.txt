@@ -1,0 +1,6 @@
+HPLC settings: 
+
+Column: Hypersil gold 100*2.1 mm 1.9 mkm, T=35C
+Flow: 0.2 ml/min
+Graident: А->В: 0-3 min 5%В, 23 min 45%В, 24-29 min 90%В, 29-34 min 5%В
+А – 5% ACN, 0.3% TEA formiate in water рН 7.0; В – 0.3% TEA, 0.1% formiate, no pH control
